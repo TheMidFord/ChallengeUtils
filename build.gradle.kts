@@ -61,6 +61,18 @@ dependencies {
 	implementation(libs.log4j.api12)
 	implementation(libs.gson)
 
+	implementation("sunsetsatellite:signalindustries:0.24.0")
+	implementation("sunsetsatellite:catalyst-core:2.2.0")
+	implementation("sunsetsatellite:catalyst-effects:2.5.3")
+	implementation("sunsetsatellite:catalyst-energy:2.0.5")
+	implementation("sunsetsatellite:catalyst-fluids:2.3.2")
+	implementation("sunsetsatellite:catalyst-multiblocks:2.2.0")
+	implementation("sunsetsatellite:catalyst-multipart:2.0.3")
+	implementation("sunsetsatellite:retrostorage:3.1.0-beta.2")
+	implementation("turing:tmb:2.0.0")
+	implementation("useless:dragonfly:1.7.0-alpha.7")
+	implementation("useless:btwaila:1.2.2-7.3_04")
+
 	implementation(libs.commonsLang3)
 	include(libs.commonsLang3)
 }

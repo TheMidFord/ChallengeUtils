@@ -1,10 +1,13 @@
 {
   "required": true,
-  "package": "turniplabs.examplemod.mixin",
+  "package": "malicedev.challengeutils.mixin",
   "compatibilityLevel": "JAVA_${java}",
   "injectors": {
     "defaultRequire": 1
   },
-  "mixins": [],
+  "mixins": [
+    "BlockLogicCobbleMixin",
+    "BlockLogicSandMixin"
+  ],
   "client": []
 }

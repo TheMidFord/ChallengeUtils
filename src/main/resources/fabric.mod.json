@@ -1,14 +1,15 @@
 {
 	"schemaVersion": 1,
-	"id": "examplemod",
+	"id": "challengeutils",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This mod aims to help new BTA modders.",
+	"name": "Challenge Utils",
+	"description": "This mod adds stuff for BTA! challenge modpacks.",
 	"authors": [
-		"Turnip Labs"
+		"Malice Development"
 	],
 	"contact": {
-		"homepage": "",
+		"homepage": "https://www.github.com/TheMidford/ChallengeUtils",
+		"discord": "@themidford",
 		"sources": ""
 	},
 	"icon": "icon.png",
@@ -16,20 +17,26 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"turniplabs.examplemod.ExampleMod"
+          "malicedev.challengeutils.Main"
 		],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "malicedev.challengeutils.Main"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "malicedev.challengeutils.Main"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+          "malicedev.challengeutils.Main"
+		],
+		"initModels": [
+			"malicedev.challengeutils.ModModels"
+		],
+		"client": [
+			"malicedev.challengeutils.ChallengeUtilsClient"
 		]
 	},
 	"mixins": [
-		"examplemod.mixins.json"
+		"challengeutils.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
